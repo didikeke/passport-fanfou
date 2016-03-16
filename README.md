@@ -10,7 +10,7 @@ copied from [Passport-twitter](https://github.com/jaredhanson/passport-twitter) 
 
 #### For StrongLoop
 
-If you are using loopback-component-passport, add fanfou-login config to providers.json
+If you are using [loopback-component-passport](http://github.com/strongloop/loopback-component-passport), add fanfou-login config to providers.json
 
 ```
   "fanfou-login": {
