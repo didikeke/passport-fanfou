@@ -20,7 +20,7 @@ describe('Profile.parse', function() {
       expect(profile.username).to.equal('theSeanCook');
       expect(profile.displayName).to.equal('Sean Cook');
       expect(profile.emails).to.be.undefined;
-      expect(profile.photos[0].value).to.equal('http://si0.twimg.com/profile_images/1751506047/dead_sexy_normal.JPG');
+      expect(profile.photos[0].value).to.equal('http://a0.twimg.com/profile_images/1751506047/dead_sexy_normal.JPG');
     });
   });
 
@@ -41,7 +41,7 @@ describe('Profile.parse', function() {
       expect(profile.displayName).to.equal('Sean Cook');
       expect(profile.emails).to.have.length(1);
       expect(profile.emails[0].value).to.equal('theSeanCook@example.test');
-      expect(profile.photos[0].value).to.equal('http://si0.twimg.com/profile_images/1751506047/dead_sexy_normal.JPG');
+      expect(profile.photos[0].value).to.equal('http://a0.twimg.com/profile_images/1751506047/dead_sexy_normal.JPG');
     });
   });
 
@@ -60,7 +60,7 @@ describe('Profile.parse', function() {
       expect(profile.id).to.equal('795649');
       expect(profile.username).to.equal('rsarver');
       expect(profile.displayName).to.equal('Ryan Sarver');
-      expect(profile.photos[0].value).to.equal('http://si0.twimg.com/profile_images/1777569006/image1327396628_normal.png');
+      expect(profile.photos[0].value).to.equal('http://a0.twimg.com/profile_images/1777569006/image1327396628_normal.png');
     });
   });
 
@@ -79,7 +79,7 @@ describe('Profile.parse', function() {
       expect(profile.id).to.equal('795649');
       expect(profile.username).to.equal('rsarver');
       expect(profile.displayName).to.equal('Ryan Sarver');
-      expect(profile.photos[0].value).to.equal('http://si0.twimg.com/profile_images/1777569006/image1327396628_normal.png');
+      expect(profile.photos[0].value).to.equal('http://a0.twimg.com/profile_images/1777569006/image1327396628_normal.png');
     });
   });
 
