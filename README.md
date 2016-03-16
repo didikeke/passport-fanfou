@@ -1,6 +1,6 @@
 # passport-fanfou
 
-copied from [Passport-twitter](https://github.com/jaredhanson/passport-twitter) by [Jared Hanson](http://github.com/jaredhanson)
+copied from [passport-twitter](https://github.com/jaredhanson/passport-twitter) by [Jared Hanson](http://github.com/jaredhanson)
 
 ## Installation
 
